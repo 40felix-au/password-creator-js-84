@@ -8,3 +8,7 @@ function generatePassword(length = 12) {
         password += chars[randomIndex];
     }
     return password;
+}
+
+console.log("Generated Password:", generatePassword(16));
+console.log("Generated Password:", generatePassword(8));
